@@ -1,0 +1,5 @@
+#!/bin/bash
+echo
+echo "source activate pandas30"
+echo
+source activate pandas30
