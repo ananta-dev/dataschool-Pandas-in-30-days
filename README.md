@@ -51,5 +51,6 @@ conda list –-export > package-list.txt
 Reinstall packages from an export file:
 
 ```
-conda create -n pandas30 –file package-list.txt
+$ conda config --append channels conda-forge
+$ conda create --name pandas30 --file package-list.txt
 ```
